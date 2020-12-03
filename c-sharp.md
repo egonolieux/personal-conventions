@@ -1,5 +1,11 @@
 # C# coding conventions
 
+## Todo
+
+- Always use C#-style comment blocks.
+- C#8-style methods.
+- No namespace references in code (use `using` instead.
+
 ## Repository guidelines
 
 - **Never** store credentials of any kind in the repository. Always refer to them externally.
