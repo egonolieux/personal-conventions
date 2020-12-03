@@ -4,7 +4,7 @@
 
 - Always use C#-style comment blocks.
 - C#8-style methods.
-- No namespace references in code (use `using` instead.
+- No namespace references in code (use `using` instead).
 
 ## Repository guidelines
 
