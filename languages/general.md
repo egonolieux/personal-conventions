@@ -1,4 +1,4 @@
-# Global conventions
+# General language conventions
 
 ## Todo
 
