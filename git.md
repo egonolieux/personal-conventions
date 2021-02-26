@@ -5,7 +5,8 @@
 - Stable releases (commits in the `master` or `main` branch) should be tagged by their version number.
 - Keep commits small: 1 conceptual change per commit.
 - Push often to avoid conflicts (also see <https://en.wikipedia.org/wiki/Bus_factor>).
-- Prefer using `rebase` over `merge` when possible.
+- Prefer using `git rebase` over `git merge` when possible.
+- Use `git merge --squash` or `git rebase -i` to remove work in progress or redundant commits from the history.
 - Do not store credentials of any kind in repositories. Always refer to them externally.
 
 ## Commit messages
