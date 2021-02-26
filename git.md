@@ -6,21 +6,29 @@
 - Keep commits small: 1 conceptual change per commit.
 - Push often to avoid conflicts (also see <https://en.wikipedia.org/wiki/Bus_factor>).
 - Prefer using `git rebase` over `git merge` when possible.
-- Use `git merge --squash` or `git rebase -i` to remove work in progress or redundant commits from the history.
+- Always remove work in progress or redundant commits from the history (see `git merge --squash` or `git rebase -i`).
 - Do not store credentials of any kind in repositories. Always refer to them externally.
 
 ## Commit messages
 
 - Separate the subject and the body of the message by a blank line (body is optional).
 - Do not end the subject with a period.
-- The subject should be written in the imperative mood.
+- The subject must be written in the imperative mood.
 - Keep the subject as short as possible for better readability (preferably <= 80 characters).
 - Use proper capitalization.
 - Use the body to explain **what** and **why** instead of **how**.
 
 ## Branches
 
-- Only use lowercase alphanumerical characters, separated by the `-` character.
+- All branch names must be contain a proper prefix (see prefixes), separated from the proper branch name by the `/` character.
+- Only use lowercase and alphanumerical characters for the proper branch name, separated by the `-` character.
 - Do not start branch names with a number.
-- Use the name of the feature or a short description for the branch name.
+- The proper branch name should refer to the issue ID (if applicable) and must have a short descriptive name.
 - Always suffix work in progress branches with `-wip`.
+
+### Prefixes
+
+- `bugfix`: Bug fixes.
+- `experimental`: Experimental features or improvements.
+- `feature`: Features and improvements.
+- `hotfix`: Fixes that are not part of the normal development and testing process.
