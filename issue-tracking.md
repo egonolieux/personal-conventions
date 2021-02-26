@@ -25,7 +25,7 @@ Type, status and priority labels **should only be used once** per issue.
 - **Status: Cancelled**
 - **Status: Duplicate**: The issue has been created before and is redundant.
 - **Status: In progress**
-- **Status: Obsolete**: The issue has been superceded by one or more new issues.
+- **Status: Obsolete**: The issue has been superseded by one or more new issues.
 - **Status: Testing**
 - **Status: Won't fix**
 
