@@ -1,4 +1,4 @@
-# C# coding conventions
+# C# conventions
 
 ## Todo
 
