@@ -3,7 +3,8 @@
 - Do not commit code that does not build to the repository, with the exception of work in progress branches.
 - Do not commit untested code to the `master` or `main` branch.
 - Stable releases (commits in the `master` or `main` branch) should be tagged by their version number.
-- Try to keep commits small: 1 conceptual change per commit.
+- Keep commits small: 1 conceptual change per commit.
+- Push often to avoid conflicts (also see <https://en.wikipedia.org/wiki/Bus_factor>).
 - Prefer using `rebase` over `merge` when possible.
 - Do not store credentials of any kind in repositories. Always refer to them externally.
 
@@ -19,5 +20,6 @@
 ## Branches
 
 - Only use lowercase alphanumerical characters, separated by the `-` character.
-- Use a short feature description for the branch name.
+- Do not start branch names with a number.
+- Use the name of the feature or a short description for the branch name.
 - Always suffix work in progress branches with `-wip`.
