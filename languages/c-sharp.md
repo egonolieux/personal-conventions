@@ -6,12 +6,6 @@
 - C#8-style methods.
 - No namespace references in code (use `using` instead).
 
-## Repository guidelines
-
-- **Never** store credentials of any kind in the repository. Always refer to them externally.
-- **Never** commit code that does not build to the repository.
-- For work in process (generally code that does not build), a separate branch using the `-wip` suffix can be used.
-
 ## Coding standards
 
 In general, follow the official C# language conventions: <https://docs.microsoft.com/en-us/dotnet/csharp/programming-guide/inside-a-program/coding-conventions>. C# related issues are checked by StyleCop at build-time. Below is a summary of general rules and rules that are not covered by StyleCop that you should aim to follow. In case of uncertainty, you can look at the existing code for guidance.
