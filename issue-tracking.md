@@ -8,7 +8,7 @@ When it comes to issue tracking, there are 5 categories of labels:
 4. Additional information about the issue, prefixed by `Info`.
 5. The topic of the issue, no prefix.
 
-Type, status and priority labels **should only be used once** per issue.
+Type, status and priority labels **must only be used once** per issue.
 
 ## Type labels
 
