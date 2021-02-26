@@ -1,3 +1,3 @@
-# Coding conventions
+# Personal conventions
 
 This repository is still under construction and contains conventions copied from personal projects at this time.
