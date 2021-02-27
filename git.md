@@ -2,7 +2,7 @@
 
 - Do not commit code that does not build to the repository, with the exception of work in progress branches.
 - Do not commit untested code to the `master` or `main` branch.
-- Stable releases (commits in the `master` or `main` branch) should be tagged by their version number.
+- Stable releases (commits in the `master` or `main` branch) must be tagged by their version number.
 - Keep commits small: 1 conceptual change per commit.
 - Push often to avoid conflicts (also see <https://en.wikipedia.org/wiki/Bus_factor>).
 - Prefer using `git rebase` over `git merge` when possible.
@@ -20,11 +20,10 @@
 
 ## Branches
 
-- All branch names must be contain a proper prefix (see prefixes), separated from the proper branch name by the `/` character.
-- Only use lowercase and alphanumerical characters for the proper branch name, separated by the `-` character.
-- Do not start branch names with a number.
-- The proper branch name should refer to the issue ID (if applicable) and must have a short descriptive name.
-- Always suffix work in progress branches with `-wip`.
+- Branch names must have 3 parts: the prefix (see prefixes), the issue ID, and a descriptive name, e.g., `feature/1/home-page-redesign`. If no issue ID is available, it can be left out, e.g., `feature/home-page-redesign`.
+- Only lowercase and alphanumerical characters are allowed for the name parts, where each word must be separated by the `-` character.
+- Try to keep the descriptive part of the name short.
+- Work in progress branches must use the `-wip` suffix, e.g., `feature/1/home-page-redesign-wip`.
 
 ### Prefixes
 
