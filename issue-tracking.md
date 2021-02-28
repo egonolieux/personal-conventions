@@ -2,8 +2,8 @@
 
 ## Title and description
 
-- Prefer writing the title in the imperative mood. If not possible, use a descriptive sentence.
-- Keep the title as short as possible for better readability.
+- Prefer writing the title in the imperative mood. If not possible, use a descriptive sentence instead.
+- Prefer short titles for better readability.
 - Use proper capitalization.
 - Do not end the title with a period.
 - Do not add a description if the title is self explanatory.
