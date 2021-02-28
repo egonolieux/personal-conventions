@@ -2,19 +2,19 @@
 
 - Do not commit code that does not build to the repository, with the exception of work in progress branches.
 - Do not commit untested code to the `master` or `main` branch.
-- Stable releases (commits in the `master` or `main` branch) must be tagged by their version number.
 - Keep commits small: 1 conceptual change per commit.
 - Push often to avoid conflicts (also see <https://en.wikipedia.org/wiki/Bus_factor>).
 - Prefer using `git rebase` over `git merge` when possible.
 - Always remove work in progress or redundant commits from the history (see `git merge --squash` or `git rebase -i`).
+- Stable releases (commits in the `master` or `main` branch) must be tagged by their version number.
 - Do not store credentials of any kind in repositories. Always refer to them externally.
 
 ## Commit messages
 
 - Separate the subject and the body of the message by a blank line (body is optional).
-- Do not end the subject with a period.
 - The subject must be written in the imperative mood.
 - Keep the subject as short as possible for better readability (preferably <= 80 characters).
+- Do not end the subject with a period.
 - Use proper capitalization.
 - Use the body to explain **what** and **why** instead of **how**.
 
