@@ -16,8 +16,8 @@ Type, status and priority labels **must only be used once** per issue.
 - `Type: Data entry`
 - `Type: Documentation`
 - `Type: Feature/Improvement`
-- `Type: Migration/Refactor`
 - `Type: Question`
+- `Type: Refactor/Migration`
 - `Type: Test`
 
 ## Status labels
