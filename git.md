@@ -33,3 +33,4 @@
 - `feature`: Features or improvements.
 - `hotfix`: Fixes that are not part of the normal development and testing process.
 - `refactor`: Refactoring or migrations.
+- `test`: Unit tests etc.
