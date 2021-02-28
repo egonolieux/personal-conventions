@@ -14,8 +14,8 @@
 - Separate the subject and the body of the message by a blank line (body is optional).
 - The subject must be written in the imperative mood.
 - Keep the subject as short as possible for better readability (preferably <= 80 characters).
-- Do not end the subject with a period.
 - Use proper capitalization.
+- Do not end the subject with a period.
 - Use the body to explain **what** and **why** instead of **how**.
 
 ## Branches
