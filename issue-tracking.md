@@ -1,5 +1,15 @@
 # Issue tracking
 
+## Title and description
+
+- Do not end the title with a period.
+- The title must be written in the imperative mood.
+- Keep the title as short as possible for better readability.
+- Use proper capitalization.
+- Do not add a description if the title is self explanatory.
+
+## Labels
+
 When it comes to issue tracking, there are 5 categories of labels:
 
 1. The type of the issue, prefixed by `Type`.
@@ -10,7 +20,7 @@ When it comes to issue tracking, there are 5 categories of labels:
 
 Type, status and priority labels **must only be used once** per issue.
 
-## Type labels
+### Type labels
 
 - `Type: Bug`
 - `Type: Data entry`
@@ -20,7 +30,7 @@ Type, status and priority labels **must only be used once** per issue.
 - `Type: Refactor/Migration`
 - `Type: Test`
 
-## Status labels
+### Status labels
 
 - `Status: Cancelled`
 - `Status: Duplicate`: The issue has been created before and is redundant.
@@ -29,18 +39,18 @@ Type, status and priority labels **must only be used once** per issue.
 - `Status: Testing`
 - `Status: Won't fix`
 
-## Priority labels
+### Priority labels
 
 Issues with no priority label are considered to be of normal priority.
 
 - `Priority: High`
 - `Priority: Low`
 
-## Informational labels
+### Informational labels
 
 - `Info: Help wanted`
 
-## Topic labels
+### Topic labels
 
 - `Accessibility`
 - `Analytics`
