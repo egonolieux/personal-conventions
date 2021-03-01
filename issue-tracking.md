@@ -37,20 +37,20 @@ The status label is optional and can only be used once per issue.
 
 ### Priority labels
 
-The priority label is optional. Issues with no priority label are considered to be of normal priority.
+The priority label is optional and can only be used once per issue. Issues with no priority label are considered to be of normal priority.
 
 - `Priority: High`
 - `Priority: Low`
 
 ### Informational labels
 
-The informational label is optional and is used to provide additional information.
+Informational labels are optional and are used to provide additional information.
 
 - `Info: Help wanted`
 
 ### Topic labels
 
-The topic label is optional and is used to indicate a specific kind of technology, tool, etc.
+Topic labels are optional and are used to indicate a specific kind of technology, tool, etc.
 
 - `Accessibility`
 - `Analytics`
