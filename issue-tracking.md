@@ -10,27 +10,23 @@
 
 ## Labels
 
-When it comes to issue tracking, there are 5 categories of labels:
-
-1. The type of the issue, prefixed by `Type`.
-2. The status of the issue, prefixed by `Status`.
-3. The priority of the issue, prefixed by `Priority`.
-4. Additional information about the issue, prefixed by `Info`.
-5. The topic of the issue, no prefix.
-
-Type, status and priority labels **must only be used once** per issue.
+When it comes to issue tracking, there are 5 categories of labels.
 
 ### Type labels
 
+The type label is required and can only be used once per issue.
+
 - `Type: Bug`
-- `Type: Data entry`
-- `Type: Documentation`
-- `Type: Feature/Improvement`
+- `Type: Data entry`: Use this label only for non-code changes, such as entering data into a database.
+- `Type: Documentation`: Work on any kind of documentation (such as in-code comments, READMEs or usage documentation).
+- `Type: Feature/Improvement`: Functionality is being added or changed. If not, it should be considered a refactor or migration.
 - `Type: Question`
 - `Type: Refactor/Migration`
-- `Type: Test`
+- `Type: Test`: Work on unit tests etc.
 
 ### Status labels
+
+The status label is optional and can only be used once per issue.
 
 - `Status: Cancelled`
 - `Status: Duplicate`: The issue has been created before and is redundant.
@@ -41,16 +37,20 @@ Type, status and priority labels **must only be used once** per issue.
 
 ### Priority labels
 
-Issues with no priority label are considered to be of normal priority.
+The priority label is optional. Issues with no priority label are considered to be of normal priority.
 
 - `Priority: High`
 - `Priority: Low`
 
 ### Informational labels
 
+The informational label is optional and is used to provide additional information.
+
 - `Info: Help wanted`
 
 ### Topic labels
+
+The topic label is optional and is used to indicate a specific kind of technology, tool, etc.
 
 - `Accessibility`
 - `Analytics`
