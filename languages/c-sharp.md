@@ -3,8 +3,13 @@
 ## Todo
 
 - Always use C#-style comment blocks.
-- C#8-style methods.
-- No namespace references in code (use `using` instead).
+- Use lambda expressions for method and property bodies if possible.
+- No namespace references should be used in-code (use `using` instead), unless there is a conflict.
+- Named arguments should be used if the meaning of the passed value is unclear or ambiguous.
+- Generic constraints should be put on a separate line with indentation.
+- The call to base (or this) constructors should be put on a separate line with indentation.
+- Accept the most general type possible and return the most specific type possible.
+- The API should not expose specific implementations if an interface is available, unless private.
 
 ## Coding standards
 
@@ -121,8 +126,6 @@ In general, follow the official C# language conventions: <https://docs.microsoft
     ```
 
 - When inheriting from certain classes or interfaces, their declarations should be ordered alphabetically.
-
-- When using multi-line arguments for method or constructor calls, named arguments should be used.
 
 - When using multi-line arguments, the closing parenthesis should be on the same indentation level as the opening statement.
 
