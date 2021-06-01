@@ -10,6 +10,7 @@
 - The call to base (or this) constructors should be put on a separate line with indentation.
 - Accept the most general type possible and return the most specific type possible.
 - The API should not expose specific implementations if an interface is available, unless private.
+- Error/exception messages should be written in the past tense, unless it describes a failed precondition or similar (present tense).
 
 ## Coding standards
 
