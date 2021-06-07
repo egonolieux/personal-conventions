@@ -11,6 +11,7 @@
 - Accept the most general type possible and return the most specific type possible.
 - The API should not expose specific implementations if an interface is available, unless private.
 - Error/exception messages should be written in the past tense, unless it describes a failed precondition or similar (present tense).
+- Prefer making a safe copy of readonly collections when passed as an argument to a class. This prevents mutations to the collection from the side of the caller. Optional for records.
 
 ## Coding standards
 
