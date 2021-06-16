@@ -1,5 +1,3 @@
 # General language conventions
 
-## Todo
-
-- Only capitalize the first letter of acronyms for readability: `HtmlNode` > `HTMLNode`.
+- Only capitalize the first letter of acronym variables for readability, e.g., `HtmlNode` instead of `HTMLNode`.
