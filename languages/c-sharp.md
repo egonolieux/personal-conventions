@@ -1,6 +1,6 @@
 # C# conventions
 
-## Todo
+TODO: Rework.
 
 - Always use C#-style comment blocks.
 - Use lambda expressions for method and property bodies if possible.
