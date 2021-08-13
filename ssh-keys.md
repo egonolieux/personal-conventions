@@ -2,9 +2,11 @@
 
 ## File names
 
-Private key: `<username>_<hostname-or-fqdn>.pem`  
-Public key: `<username>_<hostname-or-fqcn>.pub`  
+Private key: `<username>_[<project-name>_]<hostname-or-fqdn>.pem`  
+Public key: `<username>_[<project-name>_]<hostname-or-fqcn>.pub`  
 
-## Public key names
+If possible, a directory must be created for the project name. If not possible, it must be included in the file name as shown above.
 
-`<username>@[<namespace>_]<hostname-or-fqdn>`
+## Public key names or references
+
+`<username>@[<project-name>_]<hostname-or-fqdn>`
