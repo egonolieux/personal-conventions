@@ -1,5 +1,9 @@
 # Git conventions
 
+- Do not put multiple projects into a single repository.
+
+    Having a single project per repository provides proper separation for issue tracking and build automation.
+
 - Do not commit code that does not build to the repository, with the exception of work in progress branches.
 - Do not commit untested code to the `master` or `main` branch.
 - Keep commits small: 1 conceptual change per commit.
