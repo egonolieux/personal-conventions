@@ -1,4 +1,4 @@
-# Comment anchors
+# Comment anchor conventions
 
 The following comment anchors are allowed to be used:
 
