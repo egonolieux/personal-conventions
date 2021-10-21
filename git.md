@@ -5,13 +5,26 @@
     Having a single project per repository provides proper separation for issue tracking and build automation.
 
 - Do not commit code that does not build to the repository, with the exception of work in progress branches.
+
 - Do not commit untested code to the `master` or `main` branch.
+
+    The `master` or `main` branch represents a stable version of the project and is often automatically deployed into production.
+
 - Keep commits small: 1 conceptual change per commit.
+
 - Push often to avoid conflicts (also see <https://en.wikipedia.org/wiki/Bus_factor>).
+
 - Prefer using `git rebase` over `git merge` when possible.
+
+    This avoids poluting the Git history.
+
 - Always remove work in progress or redundant commits from the history (see `git merge --squash` or `git rebase -i`).
+
 - Stable releases (commits in the `master` or `main` branch) must be tagged by their version number.
+
 - Do not store credentials of any kind in repositories. Always refer to them externally.
+
+    Credentials must be kept in a secure environment such as a password manager. It might also be hard to get rid of the credentials once they are in the Git history.
 
 ## Commit messages
 
