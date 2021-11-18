@@ -17,29 +17,6 @@ In general, follow the official C# language conventions: <https://docs.microsoft
 
 ### Structure
 
-- Order class members by their type: constants, static readonly fields, readonly fields, fields, static constructor, constructors, events, properties and methods. A blank line must be used between members. Constants, static readonly fields, readonly fields and fields can be declared without using blank lines, unless one or more members of the same type span multiple lines.
-
-    ```cs
-    public const int Age = 25;
-    public const string Name = "Foo";
-
-    public static readonly List<int> Numbers = new List<int> { 1, 2, 3 };
-
-    public static readonly List<int> Titles = new List<string>
-    {
-        "Some title",
-        "Another title",
-        "Yet another title",
-    };
-
-    private readonly int readonlyField;
-    private readonly string otherReadonlyField;
-    private int field;
-    private string otherField;
-
-    //...
-    ```
-
 - Declare classes as `sealed` by default, unless they are specifically designed to be inherited from.
 
 - If a single argument is spread over multiple lines when using multi-line arguments, indent all lines following the first line.
@@ -81,6 +58,29 @@ In general, follow the official C# language conventions: <https://docs.microsoft
     {
         // ...
     }
+    ```
+
+- Order class members by their type: constants, static readonly fields, readonly fields, fields, static constructor, constructors, events, properties and methods. A blank line must be used between members. Constants, static readonly fields, readonly fields and fields can be declared without using blank lines, unless one or more members of the same type span multiple lines.
+
+    ```cs
+    public const int Age = 25;
+    public const string Name = "Foo";
+
+    public static readonly List<int> Numbers = new List<int> { 1, 2, 3 };
+
+    public static readonly List<int> Titles = new List<string>
+    {
+        "Some title",
+        "Another title",
+        "Yet another title",
+    };
+
+    private readonly int readonlyField;
+    private readonly string otherReadonlyField;
+    private int field;
+    private string otherField;
+
+    //...
     ```
 
 - Put calls to `base` (or `this`) constructors on a separate line with indentation.
