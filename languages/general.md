@@ -6,8 +6,8 @@
 
 ## Variable naming
 
+- For "regular" variable names, the conventions for specific categories of variables (see below) cannot be used.
 - Variable names must be as descriptive as possible.
-- For "regular" variable names, the conventions for boolean and function variable names cannot be used.
 
 ### Booleans
 
