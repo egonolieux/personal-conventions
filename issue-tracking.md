@@ -20,7 +20,7 @@ The type label is required and can only be used once per issue.
 - `Type: Bug`
 - `Type: Data entry`: Use this label only for non-code changes, such as entering data into a database.
 - `Type: Documentation`: Work on any kind of documentation (such as in-code comments, READMEs or usage documentation).
-- `Type: Feature/Improvement`: Functionality is being added or changed. If not, it should be considered a refactor or migration.
+- `Type: Feature/Improvement`: Functionality is being added or changed. If not, it is a refactor or migration.
 - `Type: Question`: A question of any kind, usually from outside users or contributors.
 - `Type: Refactor/Migration`
 - `Type: Research`: This label indicates that research about a certain topic needs to be done.
