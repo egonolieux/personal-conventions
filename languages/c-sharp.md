@@ -1,5 +1,7 @@
 # C# conventions
 
+In general, follow the official C# language conventions: <https://docs.microsoft.com/en-us/dotnet/csharp/programming-guide/inside-a-program/coding-conventions>. For static code analysis, Roslynator can be used.
+
 - Accept the most general type possible and return the most specific type possible.
 - Always use C#-style comment blocks.
 - Avoid throwing exceptions from getters (unless the argument is invalid).
@@ -11,11 +13,7 @@
 - Use named arguments if the meaning of the passed value is unclear or ambiguous.
 - Write error/exception messages in the past tense, unless it describes a failed precondition or similar (present tense).
 
-## Coding standards
-
-In general, follow the official C# language conventions: <https://docs.microsoft.com/en-us/dotnet/csharp/programming-guide/inside-a-program/coding-conventions>. For static code analysis, Roslynator can be used.
-
-### Structure
+## Structure
 
 - Declare classes as `sealed` by default, unless they are specifically designed to be inherited from.
 
@@ -90,13 +88,13 @@ In general, follow the official C# language conventions: <https://docs.microsoft
 - Put parentheses around ternary operator expressions that contain 2 or more boolean expressions.
 
     ```cs
-    // Allowed.
+    // Correct.
     return (5 < 10) ? "a" : "b";
 
-    // Allowed.
+    // Correct.
     return isValid ? "yes" : "no";
 
-    // Not allowed.
+    // Incorrect.
     return 5 < 10 ? "a" : "b";
     ```
 
@@ -105,13 +103,13 @@ In general, follow the official C# language conventions: <https://docs.microsoft
 - When using multi-line arguments, put closing parentheses on the same indentation level as the opening statement.
 
     ```cs
-    // Allowed.
+    // Correct.
     this.Method(
         parameter1: "someValue",
         parameter2: "otherValue"
     );
 
-    // Not Allowed.
+    // Incorrect.
     this.Method(
         parameter1: "someValue",
         parameter2: "otherValue");
