@@ -1,28 +1,23 @@
 # C# conventions
 
-- Always use C#-style comment blocks.
-- Use lambda expressions for method and property bodies if possible.
-- No namespace references must be used in-code (use `using` instead), unless there is a conflict.
-- Named arguments must be used if the meaning of the passed value is unclear or ambiguous.
-- Put generic constraints on a separate line with indentation.
-- Put calls to `base` (or `this`) constructors on a separate line with indentation.
 - Accept the most general type possible and return the most specific type possible.
+- Always use C#-style comment blocks.
+- Avoid throwing exceptions from getters (unless the argument is invalid).
+- Declare methods that do not reference instance members (`this`) as `static` (pure function).
+- Make a safe copy of a collection argument (inside a constructor or property) if the class exposes it as a readonly collection. This prevents mutations to the collection from the side of the caller. Optional for records.
+- Namespace references cannot be used in-code (use `using` instead), unless there is a conflict.
 - The API cannot expose specific implementations if an interface is available, unless private.
-- Error/exception messages must be written in the past tense, unless it describes a failed precondition or similar (present tense).
-- Prefer making a safe copy of readonly collections when passed as an argument to a class. This prevents mutations to the collection from the side of the caller. Optional for records.
+- Use lambda expressions for method and property bodies if possible.
+- Use named arguments if the meaning of the passed value is unclear or ambiguous.
+- Write error/exception messages in the past tense, unless it describes a failed precondition or similar (present tense).
 
 ## Coding standards
 
-In general, follow the official C# language conventions: <https://docs.microsoft.com/en-us/dotnet/csharp/programming-guide/inside-a-program/coding-conventions>. 
-
-### Best practices
-
-- Avoid throwing exceptions from getters (unless the argument is invalid).
-- Methods that do not reference instance members (`this`) must be declared as `static` (pure function).
+In general, follow the official C# language conventions: <https://docs.microsoft.com/en-us/dotnet/csharp/programming-guide/inside-a-program/coding-conventions>. For static code analysis, Roslynator can be used.
 
 ### Structure
 
-- Class members must be ordered by their type: constants, static readonly fields, readonly fields, fields, static constructor, constructors, events, properties and methods. A blank line must be used between members. Constants, static readonly fields, readonly fields and fields can be declared without using blank lines, unless one or more members of the same type span multiple lines.
+- Order class members by their type: constants, static readonly fields, readonly fields, fields, static constructor, constructors, events, properties and methods. A blank line must be used between members. Constants, static readonly fields, readonly fields and fields can be declared without using blank lines, unless one or more members of the same type span multiple lines.
 
     ```cs
     public const int Age = 25;
@@ -47,7 +42,7 @@ In general, follow the official C# language conventions: <https://docs.microsoft
 
 - Declare classes as `sealed` by default, unless they are specifically designed to be inherited from.
 
-- If a single argument is spread over multiple lines when using multi-line arguments, all lines following the first line must be indented.
+- If a single argument is spread over multiple lines when using multi-line arguments, indent all lines following the first line.
 
     ```cs
     this.Method(
@@ -88,6 +83,10 @@ In general, follow the official C# language conventions: <https://docs.microsoft
     }
     ```
 
+- Put calls to `base` (or `this`) constructors on a separate line with indentation.
+
+- Put generic constraints on a separate line with indentation.
+
 - Put parentheses around ternary operator expressions that contain 2 or more boolean expressions.
 
     ```cs
@@ -101,9 +100,9 @@ In general, follow the official C# language conventions: <https://docs.microsoft
     return 5 < 10 ? "a" : "b";
     ```
 
-- When inheriting from certain classes or interfaces, their declarations must be ordered alphabetically.
+- When inheriting from certain classes or interfaces, order their declarations alphabetically.
 
-- When using multi-line arguments, the closing parenthesis must be on the same indentation level as the opening statement.
+- When using multi-line arguments, put closing parentheses on the same indentation level as the opening statement.
 
     ```cs
     // Allowed.
