@@ -19,6 +19,10 @@ A function/method implies an action, which means that a verb must be used for th
 
 A notable exception to these rules are callback functions in general, which can simply be suffixed by `Callback`, e.g., `successCallback`.
 
+### Arrays, lists and sets
+
+Array, list and set variable names must be written in plural form, e.g., `items` and `stringValues`. If the same values are used within the same scope for different collection types (an array, list or set), an `As<Type>` suffix must be used, e.g., `itemsAsSet` and `itemsAsList`.
+
 ### Hash maps
 
 Hash map variable names must indicate which values are being mapped, and must have a `Map` suffix, e.g., `someValueToOtherValueMap`.
