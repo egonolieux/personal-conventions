@@ -27,7 +27,7 @@ In general, follow the official C# language conventions: <https://docs.microsoft
             "some very long string " +
             "that is" +
             "split over multiple lines."
-    )
+    );
     ```
 
 - Multi-line constructor signatures, method signatures and `if` statements must have their closing parentheses at the end of the last line.
