@@ -22,12 +22,6 @@ In general, follow the official C# language conventions: <https://docs.microsoft
 - Avoid throwing exceptions from getters (unless the argument is invalid).
 - Methods that do not reference instance members (`this`) should be declared as `static` (pure function).
 
-### Naming
-
-- Boolean naming should always reflect a question to which `true` or `false` can be answered; e.g., `hasValue` and `isValid`.
-- Hash maps (dictionaries) should indicate which values are being mapped, and should have a `Map` suffix, e.g., `expansionNameToCardsMap`.
-- Use descriptive names. Variable names like `res`, `x` or `temp` are meaningless and lack any context.
-
 ### Structure
 
 - Class members should be ordered by their type: constants, static readonly fields, readonly fields, fields, static constructor, constructors, events, properties and methods. A blank line should be used between members. Constants, static readonly fields, readonly fields and fields can be declared without using blank lines, unless one or more members of the same type span multiple lines.
@@ -55,23 +49,6 @@ In general, follow the official C# language conventions: <https://docs.microsoft
 
 - Classes should be declared as `sealed` by default, unless they are specifically designed to be inherited from.
 
-- Closing parentheses should not have preceding whitespace (SA1009), unless the parenthesis is used to close a multi-line expression.
-
-    ```cs
-    // Allowed.
-
-    var dateTime = new DateTime(
-        year: 1,
-        month: 5,
-        day: 2
-    );
-
-    var dateTime = new DateTime(1, 2, 3);
-
-    // Not allowed.
-
-    var dateTime = new DateTime(1, 2, 3 );
-    ```
 
 - If a single argument is spread over multiple lines when using multi-line arguments, all lines following the first line should be indented.
 
