@@ -2,7 +2,7 @@
 
 ## Capitalization
 
-- Only capitalize the first letter of acronym variables for readability, e.g., `HtmlNode` instead of `HTMLNode`.
+- When using camel or pascal case, only capitalize the first letter of acronyms for readability, e.g., `HtmlNode` instead of `HTMLNode`.
 
 ## Variable naming
 
