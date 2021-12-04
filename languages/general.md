@@ -13,11 +13,16 @@
 
 Boolean variable names must either be prefixed by a conjugated verb such as `is`, `has` or `can`, or be written in imperative form such as `enable` or `doWork`. The imperative form can only be used over the conjugated verb form if the boolean variable indicates a command of some kind and does not relate to a property. An example of such case is an `enable` variable of a function/method called `toggle`.
 
-### Functions
+The imperative form might conflict with function/method names. For cases where the conventions regarding (first-class) function naming conflicts cannot be applied, a `Var` suffix must be used, e.g., `enableVar`.
 
-A function/method implies an action, which means that a verb must be used for the variable name, such as `calculateSomething` or `doSomeAction`. If the function variable name conflicts with a boolean variable name, the `Fn` suffix must be used, e.g., `doSomeActionFn`.
+### First-class functions
 
-A notable exception to these rules are callback functions in general, which can simply be suffixed by `Callback`, e.g., `successCallback`.
+A function implies an action, which means that a verb must be used for the variable name, such as `calculateSomething` or `doSomeAction`. If the function variable name conflicts with a boolean variable name, the `Fn` suffix must be used, e.g., `doSomeActionFn`.
+
+Notable exceptions to these rules are:
+
+- Callback functions, which are suffixed by `Callback`, e.g., `successCallback`.
+- Event listeners, which are prefixed by `on`, e.g., `onButtonClick`.
 
 ### Arrays, lists and sets
 
