@@ -15,9 +15,9 @@ A function implies an action, which means that a verb must be used for its name,
 
 #### Special cases
 
-- **Callbacks**: Use a `callback` suffix, e.g., `successCallback`.
-- **Event listeners**: Use an `on` suffix, e.g., `onButtonClick`.
-- **General prefixes and suffixes**: General prefixes and suffixes are allowed, as long as the function name also uses a verb, e.g., `innerShowDialog` and `doSomeActionWrapper`.
+- **Event listeners**: Use an `on` suffix, e.g., `onButtonClick`. The general verb form is not required.
+- **Callbacks**: Use a `callback` suffix, e.g., `successCallback`. The general verb form is not required.
+- **General prefixes and suffixes**: General prefixes and suffixes are only allowed for functions that are explicitly defined as a variable. Examples are `innerShowDialog` and `doSomeActionWrapper`.
 
 #### Naming conflicts
 
