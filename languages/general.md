@@ -4,30 +4,36 @@
 
 - When using camel or pascal case, only capitalize the first letter of acronyms for readability, e.g., `HtmlNode` instead of `HTMLNode`.
 
-## Variable naming
+## Naming
 
 - For "regular" variable names, the conventions for specific categories of variables (see below) cannot be used.
 - Variable names must be as descriptive as possible.
 
-### Booleans
+### Functions
 
-Boolean variable names must either be prefixed by a conjugated verb such as `is`, `has` or `can`, or be written in imperative form such as `enable` or `doWork`. The imperative form can only be used over the conjugated verb form if the boolean variable indicates a command of some kind and does not relate to a property. An example of such case is an `enable` variable of a function/method called `toggle`.
+A function implies an action, which means that a verb must be used for its name, such as `calculateSomething` or `doSomeAction`.
 
-The imperative form might conflict with function/method names. For cases where the conventions regarding (first-class) function naming conflicts cannot be applied, a `bool` suffix must be used, e.g., `enableBool`.
+#### Special cases
 
-### First-class functions
+- **Callbacks**: Use a `callback` suffix, e.g., `successCallback`.
+- **Event listeners**: Use an `on` suffix, e.g., `onButtonClick`.
 
-A function implies an action, which means that a verb must be used for the variable name, such as `calculateSomething` or `doSomeAction`. If the function variable name conflicts with a boolean variable name, the `fn` suffix must be used, e.g., `doSomeActionFn`.
+#### Naming conflicts
 
-Notable exceptions to these rules are:
+In some cases, the function name might conflict with other variable names, such as imperative booleans. In such cases, the `fn` suffix must be used, e.g., `doSomeActionFn`.
 
-- Callback functions, which are suffixed by `callback`, e.g., `successCallback`.
-- Event listeners, which are prefixed by `on`, e.g., `onButtonClick`.
+### Boolean variables
 
-### Arrays, lists and sets
+Boolean variable names must either be prefixed by a conjugated verb such as `is`, `has` or `can`, or be written in imperative form such as `enable` or `doWork`. The imperative form can only be used over the conjugated verb form if the boolean variable indicates a command of some kind and does not relate to a property. An example of such case is an `enable` variable of a function called `toggle`.
+
+#### Naming conflicts
+
+In some cases, the imperative form might conflict with function names. See the *Functions* section on how to handle these conflicts.
+
+### Arrays, list and set variables
 
 Array, list and set variable names must be written in plural form, e.g., `items` and `stringValues`. If the same values are used within the same scope for different collection types (an array, list or set), an `as<type>` suffix must be used, e.g., `itemsAsSet` and `itemsAsList`.
 
-### Hash maps
+### Hash map variables
 
 Hash map variable names must indicate which values are being mapped, and must have a `map` suffix, e.g., `someValueToOtherValueMap`.
