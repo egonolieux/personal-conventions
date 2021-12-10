@@ -20,7 +20,7 @@ A function implies an action, which means that a verb must be used for its name,
 
 #### Naming conflicts
 
-In some cases, the function name might conflict with other variable names, such as imperative booleans. In such cases, the `fn` suffix must be used, e.g., `doSomeActionFn` (in contrast to the `doSomeAction` boolean).
+In some cases, the function name might conflict with other variable names, such as imperative booleans. In such cases, the `fn` suffix must be used, e.g., `doSomeActionFn` in contrast to the `doSomeAction` boolean.
 
 ### Boolean variables
 
