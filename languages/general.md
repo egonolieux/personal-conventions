@@ -24,11 +24,11 @@ In some cases, the function name might conflict with other variable names, such 
 
 ### Boolean variables
 
-Boolean variable names must either be prefixed by a conjugated verb such as `is`, `has` or `can`, or be written in imperative form such as `enable` or `doWork`. The imperative form can only be used over the conjugated verb form if the boolean variable indicates a command of some kind and does not relate to a property. An example of such case is an `enable` variable of a function called `toggle`.
+Boolean variable names must either be prefixed by a conjugated verb such as `is`, `has` or `can`, or be written in the imperative form such as `enable` or `doWork`. The imperative form can only be used over the conjugated verb form if the boolean variable indicates a command of some kind, and does not relate to a property. An example of such case is an `enable` variable of a function called `toggle`.
 
 #### Naming conflicts
 
-In some cases, the imperative form might conflict with function names. See the *Functions* section on how to handle these conflicts.
+In some cases, the imperative form might conflict with function names. See the *Functions* section on how to resolve these conflicts.
 
 ### Arrays, list and set variables
 
