@@ -3,6 +3,7 @@
 The following comment anchors are allowed to be used:
 
 - `ANCHOR`: Outlines a block or section of code (both within or outside of a function).
+- `DEPRECATION`
 - `FIXME`
 - `NOTE`
 - `TODO: Document`
