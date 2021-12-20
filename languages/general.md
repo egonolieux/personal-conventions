@@ -1,13 +1,15 @@
 # General language conventions
 
-## Capitalization
+## Structure
 
-- When using camel or pascal case, only capitalize the first letter of acronyms for readability, e.g., `HtmlNode` instead of `HTMLNode`.
+- Avoid nesting `if` statements; prefer to return early when a precondition fails.
+- Use trailing commas if the language supports it.
 
 ## Naming
 
 - For "regular" variable names, the conventions for specific categories of variables (see below) cannot be used.
 - Variable names must be as descriptive as possible.
+- When using camel or pascal case, only capitalize the first letter of acronyms for readability, e.g., `HtmlNode` instead of `HTMLNode`.
 
 ### Functions
 
