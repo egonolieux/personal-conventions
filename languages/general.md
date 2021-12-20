@@ -4,6 +4,7 @@
 
 - Avoid nesting `if` statements; prefer to return early when a precondition fails.
 - Use trailing commas if the language supports it.
+- Insert a blank line between a `return` statement and other statements or expressions.
 
 ## Naming
 
