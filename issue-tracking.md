@@ -56,11 +56,7 @@ Topic labels are optional and are used to indicate a specific kind of technology
 
 - `Accessibility`
 - `Analytics`
-- `Back end`: Use this label only in projects where there is a clear distinction between back end and front end.
-- `Front end`: Use this label only in projects where there is a clear distinction between back end and front end.
 - `Operations/Infrastructure`
 - `Performance`
 - `Security`
-- `Style/CSS`
 - `Tooling`
-- `UI/UX Design`
