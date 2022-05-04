@@ -2,8 +2,8 @@
 
 ## Title and description
 
-- Do not add a description if the title is self explanatory.
-- Do not end the title with a period.
+- Don't add a description if the title is self explanatory.
+- Don't end the title with a period.
 - Prefer writing short titles for better readability.
 - Prefer writing the title in the imperative mood. If not possible, use a descriptive sentence instead.
 - Use Markdown for both titles and descriptions.
