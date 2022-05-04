@@ -33,7 +33,6 @@ The status label is optional and can only be used once per issue.
 - `Status: Duplicate`: The issue has been created before and is redundant.
 - `Status: In progress`
 - `Status: Obsolete`: The issue has been superseded by one or more new issues.
-- `Status: Research needed`: This label indicates that research about the issue needs to be done.
 - `Status: Testing`
 - `Status: Won't fix`
 
@@ -49,6 +48,7 @@ The priority label is optional and can only be used once per issue. Issues with 
 Informational labels are optional and are used to provide additional information.
 
 - `Info: Help wanted`
+- `Info: Research needed`
 
 ### Topic labels
 
