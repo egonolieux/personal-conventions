@@ -23,7 +23,6 @@ The type label is required and can only be used once per issue.
 - `Type: Feature/Improvement`: Functionality is being added or changed. If not, it is a refactor or migration.
 - `Type: Question`: A question of any kind, usually from outside users or contributors.
 - `Type: Refactor/Migration`
-- `Type: Research`: This label indicates that research about a certain topic needs to be done.
 - `Type: Test`: Work on unit tests etc.
 
 ### Status labels
@@ -34,6 +33,7 @@ The status label is optional and can only be used once per issue.
 - `Status: Duplicate`: The issue has been created before and is redundant.
 - `Status: In progress`
 - `Status: Obsolete`: The issue has been superseded by one or more new issues.
+- `Status: Research needed`: This label indicates that research about the issue needs to be done.
 - `Status: Testing`
 - `Status: Won't fix`
 
