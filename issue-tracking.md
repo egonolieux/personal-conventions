@@ -40,6 +40,7 @@ The status label is optional and can only be used once per issue.
 
 The priority label is optional and can only be used once per issue. Issues with no priority label are considered to be of normal priority.
 
+- `Priority: Highest`
 - `Priority: High`
 - `Priority: Low`
 
