@@ -55,9 +55,9 @@ Informational labels are optional and are used to provide additional information
 
 Topic labels are optional and are used to indicate a specific kind of technology, tool, etc.
 
-- `Accessibility`
 - `Analytics`
 - `Operations/Infrastructure`
 - `Performance`
 - `Security`
 - `Tooling`
+- `Usability/Accessibility`
