@@ -31,6 +31,7 @@ The status label is optional and can only be used once per issue.
 
 - `Status: Cancelled`
 - `Status: Duplicate`: The issue has been created before and is redundant.
+- `Status: In design`
 - `Status: In progress`
 - `Status: Obsolete`: The issue has been superseded by one or more new issues.
 - `Status: Testing`
