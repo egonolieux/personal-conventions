@@ -17,11 +17,11 @@ When it comes to issue tracking, there are 5 categories of labels.
 
 The type label is required and can only be used once per issue.
 
-- `Type: Bug`
+- `Type: Bug`: Something isn't working as intended.
 - `Type: Data entry`: Work on any kind of data, such as entering data into a database.
-- `Type: Improvement/Feature`: Functionality is being improved or added. If not, it's a refactor or migration.
-- `Type: Question`: A question of any kind, usually from outside users or contributors.
-- `Type: Refactor/Migration`
+- `Type: Improvement/Feature`: Improvements or new functionality of any kind.
+- `Type: Migration`: A migration of of any kind, such as tooling, infrastructure, functionality, or source code.
+- `Type: Question`: A question of any kind, usually from outside users and contributors.
 
 ### Status labels
 
