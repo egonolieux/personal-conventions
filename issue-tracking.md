@@ -20,7 +20,6 @@ The type label is required and can only be used once per issue.
 - `Type: Bug`: Something isn't working as intended.
 - `Type: Data entry`: Work on any kind of data, such as entering data into a database.
 - `Type: Improvement/Feature`: Improvements or new functionality of any kind.
-- `Type: Migration`: A migration of of any kind, such as tooling, infrastructure, functionality, or source code.
 - `Type: Question`: A question of any kind, usually from outside users and contributors.
 
 ### Status labels
