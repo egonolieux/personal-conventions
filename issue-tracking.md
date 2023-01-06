@@ -18,24 +18,22 @@ When it comes to issue tracking, there are 5 categories of labels.
 The type label is required and can only be used once per issue.
 
 - `Type: Bug`
-- `Type: Data entry`: Use this label only for non-code changes, such as entering data into a database.
-- `Type: Documentation`: Work on any kind of documentation (such as in-code comments, READMEs or usage documentation).
-- `Type: Feature/Improvement`: Functionality is being added or changed. If not, it is a refactor or migration.
+- `Type: Data entry`: Work on any kind of data, such as entering data into a database.
+- `Type: Improvement/Feature`: Functionality is being improved or added. If not, it's a refactor or migration.
 - `Type: Question`: A question of any kind, usually from outside users or contributors.
 - `Type: Refactor/Migration`
-- `Type: Test`: Work on unit tests etc.
 
 ### Status labels
 
 The status label is optional and can only be used once per issue.
 
-- `Status: Cancelled`
-- `Status: Duplicate`: The issue has been created before and is redundant.
+- `Status: Canceled`: This status is final.
+- `Status: Duplicate`: The issue has been created before and is redundant. This status is final.
 - `Status: In design`
 - `Status: In progress`
-- `Status: Obsolete`: The issue has been superseded by one or more new issues.
+- `Status: Obsoleted`: The issue has been superseded by one or more new issues. This status is final.
 - `Status: Testing`
-- `Status: Won't fix`
+- `Status: Won't fix`: This status is final.
 
 ### Priority labels
 
@@ -57,8 +55,10 @@ Informational labels are optional and are used to provide additional information
 Topic labels are optional and are used to indicate a specific kind of technology, tool, etc.
 
 - `Analytics`
+- `Documentation`: Any kind of documentation, such as in-code comments, READMEs, or usage documentation.
 - `Operations/Infrastructure`
 - `Performance`
 - `Security`
+- `Testing`: Unit tests or other kinds of tests.
 - `Tooling`
 - `Usability/Accessibility`
