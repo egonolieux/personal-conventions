@@ -30,6 +30,7 @@ The status label is optional and can only be used once per issue.
 - `Status: Duplicate`: The issue has been created before and is redundant. This status is final.
 - `Status: In design`
 - `Status: In progress`
+- `Status: Invalid`: This status is final.
 - `Status: Obsoleted`: The issue has been superseded by one or more new issues. This status is final.
 - `Status: Testing`
 - `Status: Won't fix`: This status is final.
