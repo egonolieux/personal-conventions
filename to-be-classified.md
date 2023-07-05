@@ -1,4 +1,4 @@
-# Personal conventions to be classified
+# Conventions to be classified
 
 This document contains various personal conventions that have been established, but still need to be properly classified.
 
