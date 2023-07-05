@@ -8,6 +8,7 @@ This document contains various conventions that have been established, but still
 - General: *Title* vs *heading*: *Title* is specific, while *heading* is more generic. A title is a heading that uniquely belongs to a single piece of content, while multiple headings can be used within the same context. For example, a modal has a title, and a dropdown can have multiple headings within the list of options.
 - General: Code in comments: Use backticks and use full class paths. For functions and methods append `()` regardless of the parameters. For example, `Class::method()`.
 - General: Convention regarding PHPDoc/JSDoc variable order: `string|number|float|bool|...etc`.
+- General: Functions and methods for finding, deleting, and counting, must include a `One`, `All`, or `Many` suffix depending on the number of items. If the function or method is filtered, an additional `By<SomeFilter>` suffix must be included.
 - General: Keep `try` blocks as small as possible and only catch specific exceptions if possible.
 - General: Optional boolean parameters should be named in such a way that the default value can be set to `false`, unless the naming for a default value of `true` is more natural from a language point of view.
 - General: String interpolation: Only if literal string besides interpolated variables, otherwise simple concat
