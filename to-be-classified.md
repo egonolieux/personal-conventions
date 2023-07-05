@@ -1,6 +1,6 @@
 # Conventions to be classified
 
-This document contains various personal conventions that have been established, but still need to be properly classified.
+This document contains various conventions that have been established, but still need to be properly classified.
 
 - Front end: `offset` in variable names is reserved for `top`/`right`/`bottom`/`left`.
 - Front end: `rem` vs `em`: Only use `em` for text (and inline elements in general).
