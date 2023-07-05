@@ -2,14 +2,13 @@
 
 In general, follow the official C# language conventions: <https://docs.microsoft.com/en-us/dotnet/csharp/programming-guide/inside-a-program/coding-conventions>. For static code analysis, Roslynator can be used.
 
-- Accept the most general type possible and return the most specific type possible.
+- Accept the most general type possible and return the most specific (interface) type possible.
 - Always use C#-style comment blocks.
 - Avoid throwing exceptions from getters (unless the argument is invalid).
-- Declare methods that do not reference instance members (`this`) as `static` (pure function).
-- Make a safe copy of a collection argument (inside a constructor or property) if the class exposes it as a readonly collection. This prevents mutations to the collection from the side of the caller. Optional for records.
+- Declare methods that don't reference instance members (`this`) as `static` (pure function).
 - Namespace references cannot be used in-code (use `using` instead), unless there is a conflict.
 - The API cannot expose specific implementations if an interface is available, unless private.
-- Use lambda expressions for method and property bodies if possible.
+- Use lambda expressions for constructor, method, and property bodies if possible.
 - Use named arguments if the meaning of the passed value is unclear or ambiguous.
 - Write error/exception messages in the past tense, unless it describes a failed precondition or similar (present tense).
 
