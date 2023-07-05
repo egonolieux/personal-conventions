@@ -10,6 +10,7 @@ This document contains various conventions that need to be established, but stil
 - General: Establish a new convention regarding the precedence of `==` over `!=`.
 - JavaScript: Check the usage of `Object.hasOwnProperty()` vs `typeof x === 'undefined'` vs `in`. Maybe also use the new `Object.hasOwn()`?
 - JavaScript: Event listener order.
+- Less: Media queries: Media queries on top or inside every selector?
 - Less: Put certain breakpoints of page components in separate variables.
 - Naming: Boolean conventions don't work, for example `shareModalButton`. Maybe use a `Var` suffix? Also see the *card wishlist toggle* button.
 - Naming: Check the use of `or`/`and` in variable/function names (tuple name conventions in general?). Probably not for tuples because of `byUserIdAndCardId` for example?
