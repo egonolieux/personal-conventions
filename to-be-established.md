@@ -1,5 +1,7 @@
 # Conventions to be established
 
+This document contains various conventions that need to be established, but still require more research.
+
 - JavaScript: Finish `.eslintrc.js` conventions. Also: New line before break and continue?
 - Front end: Review the naming of classes/IDs.
 - Front end: Review the use of `px` vs `rem`.
