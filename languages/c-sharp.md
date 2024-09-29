@@ -57,7 +57,7 @@ In general, follow the official C# language conventions: <https://docs.microsoft
     }
     ```
 
-- Order class members by their type: constants, static readonly fields, readonly fields, fields, static constructor, constructors, events, properties and methods. A blank line must be used between members. Constants, static readonly fields, readonly fields and fields can be declared without using blank lines, unless one or more members of the same type span multiple lines.
+- Order class members by their type: constants, static readonly fields, (readonly) fields, static constructor, constructors, events, properties and methods. A blank line must be used between members. Constants, static readonly fields, readonly fields and fields can be declared without using blank lines, unless one or more members of the same type span multiple lines.
 
     ```cs
     public const int Age = 25;
@@ -76,6 +76,7 @@ In general, follow the official C# language conventions: <https://docs.microsoft
     private readonly string otherReadonlyField;
     private int field;
     private string otherField;
+    private readonly Lazy<string> lazyName;
 
     //...
     ```
