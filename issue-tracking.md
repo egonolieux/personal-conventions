@@ -17,29 +17,24 @@ When it comes to issue tracking, there are 5 categories of labels.
 
 The type label is required and can only be used once per issue.
 
-- `Type: Bug`: Something isn't working as intended.
-- `Type: Data entry`: Work on any kind of data, such as entering data into a database.
-- `Type: Improvement/Feature`: Improvements or new functionality of any kind.
+- `Type: Defect`: A defect of any kind, such as an error or bug.
+- `Type: Task`: A task of any kind, such as new functionality, an improvement, or data entry.
 - `Type: Question`: A question of any kind, usually from outside users and contributors.
 
 ### Status labels
 
 The status label is optional and can only be used once per issue.
 
-- `Status: Canceled`: This status is final.
+- `Status: Canceled`: The issue has been canceled or superseded by one or more new issues. This status is final.
 - `Status: Duplicate`: The issue has been created before and is redundant. This status is final.
-- `Status: In design`
 - `Status: In progress`
 - `Status: Invalid`: This status is final.
-- `Status: Obsoleted`: The issue has been superseded by one or more new issues. This status is final.
-- `Status: Testing`
 - `Status: Won't fix`: This status is final.
 
 ### Priority labels
 
 The priority label is optional and can only be used once per issue. Issues with no priority label are considered to be of normal priority.
 
-- `Priority: Highest`
 - `Priority: High`
 - `Priority: Low`
 
