@@ -18,8 +18,8 @@ When it comes to issue tracking, there are 5 categories of labels.
 The type label is required and can only be used once per issue.
 
 - `Type: Defect`: A defect of any kind, such as an error or bug.
-- `Type: Task`: A task of any kind, such as new functionality, an improvement, or data entry.
 - `Type: Question`: A question of any kind, usually from outside users and contributors.
+- `Type: Task`: A task of any kind, such as new functionality, an improvement, or data entry.
 
 ### Status labels
 
