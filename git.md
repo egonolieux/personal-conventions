@@ -37,17 +37,13 @@
 
 ## Branches
 
-- Branch names must have 3 parts: the prefix (see prefixes), the issue ID, and a descriptive name, e.g., `feature/1/home-page-redesign`. If no issue ID is available, it can be left out, e.g., `feature/home-page-redesign`.
+- Branch names must have 3 parts: the prefix (see prefixes), the issue ID, and a descriptive name, e.g., `task/1/home-page-redesign`. If no issue ID is available, it can be left out, e.g., `task/home-page-redesign`.
 - Only lowercase and alphanumerical characters are allowed for the name parts, where each word must be separated by the `-` character.
 - Try to keep the descriptive part of the name short.
-- Use the `-wip` suffix for work in progress branches, e.g., `feature/1/home-page-redesign-wip`.
+- Use the `-wip` suffix for work in progress branches, e.g., `task/1/home-page-redesign-wip`.
 
 ### Prefixes
 
 - `bugfix`: Bug fixes.
-- `doc`: Documentation.
-- `experimental`: Experimental features or improvements.
-- `feature`: Features or improvements.
 - `hotfix`: Fixes that are not part of the normal development and testing process.
-- `refactor`: Refactoring or migrations.
-- `test`: Unit tests etc.
+- `task`: A task of any kind, such as new functionality or an improvement.
